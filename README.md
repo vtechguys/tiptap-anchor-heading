@@ -19,4 +19,8 @@ AnchorHeading.configure({
     // whenever there is any update made to anchors
   }
 })
+
+editor.commands.focusAnchor(anchorId); // focuses the anchor into the view
+
+
 ```
