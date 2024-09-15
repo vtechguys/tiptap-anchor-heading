@@ -1,0 +1,49 @@
+{
+  "name": "@vtechguys/tiptap-anchor-heading",
+  "description": "Anchor/Outline heading, table of content for tiptap editor",
+  "version": "0.0.7",
+  "homepage": "https://github.com/vtechguys/tiptap-anchor-heading#readme",
+  "keywords": [
+    "tiptap",
+    "tiptap extension",
+    "tiptap heading",
+    "tiptap table of content",
+    "tiptap toc",
+    "tiptap anchor heading",
+    "tiptap outlines"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "bundle/index.esm.js",
+  "module": "bundle/index.js",
+  "umd": "bundle/index.umd.js",
+  "files": [
+    "src",
+    "static",
+    "bundle"
+  ],
+  "types": "bundle/index.d.ts",
+  "devDependencies": {
+    "@tiptap/core": "^2.6.6",
+    "@tiptap/extension-heading": "^2.6.6",
+    "prosemirror-state": "^1.4.3",
+    "uuid": "^10.0.0"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.6.6",
+    "@tiptap/extension-heading": "^2.6.6",
+    "prosemirror-state": "^1.4.3",
+    "uuid": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtechguys/tiptap-anchor-heading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vtechguys/tiptap-anchor-heading/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@vtechguys"
+}
