@@ -8,7 +8,7 @@ Features:
 - Scroll/Focus to anchor
 - Unique anchor
 
-![Outlines](./static/outlines.png)  
+![Outlines](./static/anchor-heading.png)  
 
 ```ts
 AnchorHeading.configure({
